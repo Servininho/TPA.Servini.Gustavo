@@ -1,0 +1,23 @@
+programa Tabuada​
+
+var​
+
+	i, n, r: inteiro​
+
+início​
+
+	leia(n)​
+
+	i=1​
+
+	enquanto (i<=10) faça​
+
+		r = n*i​
+
+		escreva (n, “x”, i, “=“, r)​
+
+		i=i+1​
+
+	fim_enquanto​
+
+fim .​

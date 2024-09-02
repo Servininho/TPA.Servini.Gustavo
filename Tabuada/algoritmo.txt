@@ -1,0 +1,11 @@
+1- Leia um número para obter sua tabuada (n)
+
+2- Inicializar o contador (i=1)
+
+3- Enquanto (i<=10) faça do passo 4 ao 6
+
+4- Calcule a tabuada (r=n*i)
+
+5- Apresente a tabuada (n,”x”, i, “=“, r)
+
+6- Incremente o contador (i=i+1)
