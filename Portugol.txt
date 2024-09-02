@@ -1,0 +1,12 @@
+programa Pares
+var
+    i, x: inteiro
+início
+    i <-- 0
+    x <-- 0
+    enquanto (x<200) faça
+        i <-- x + 2
+        x <-- x + 2
+        escreva (i)
+    fim_enquanto
+fim.
