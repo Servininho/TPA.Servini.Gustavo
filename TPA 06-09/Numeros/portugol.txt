@@ -1,0 +1,14 @@
+TPA 3 (PORTUGOL)
+
+programa Numeros
+var
+    i, x: inteiro
+início
+    i <-- 1
+    x <-- 2
+    enquanto (x<100) faça
+        i <-- i + x
+        x <-- x + 1        
+    fim_enquanto
+    escreva (i)
+fim.
