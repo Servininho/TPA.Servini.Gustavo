@@ -1,6 +1,0 @@
-1 - inicializar o contador (i=1)
-2 - inicializar o contador (x=2)
-3 - enquanto (x<=100) faça do passo 4 ao 5
-	4 - calcule i (i = i + x)
-	5 - incremente o contador (x = x + 1)
-6 - escreva (i)
