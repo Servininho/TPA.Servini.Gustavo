@@ -1,9 +1,0 @@
-Algoritmo
-
-1- Inicializar o contador (i=0)
-
-2- Enquanto (i<=200) faça do passo 3 ao
-
-3- Apresente o contador (i)
-
-4- Incremente o contador (i=i+2)
