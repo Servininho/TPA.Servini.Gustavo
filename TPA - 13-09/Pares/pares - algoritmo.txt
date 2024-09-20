@@ -1,0 +1,5 @@
+1)Calcule (i <- 0)
+2)Faça do passo 3 ao 4
+    3)Calcule (i <- i + 2)
+    4)Apresente (i)
+    5)Enquanto (i <= 500)

@@ -1,0 +1,28 @@
+var
+    anoNasc, anoAtual, i, idade, idadeVelho, idadeNovo: inteiro
+início
+    idadeVelho ← 0
+    idadeNovo ← 1000
+
+    escreva("Digite o ano atual:")
+    leia(anoAtual)
+
+    para i de 0 até 10 faça
+        escreva("Digite o ano de nascimento:")
+        leia(anoNasc)
+
+        idade ← anoAtual - anoNasc
+        escreva("Idade: ", idade)
+
+        se (idade > idadeVelho) então
+            idadeVelho ← idade
+        fim_se
+
+        se (idade < idadeNovo) então
+            idadeNovo ← idade
+        fim_se
+    fim_para
+
+    escreva("Maior idade: ", idadeVelho)
+    escreva("Menor idade: ", idadeNovo)
+fim.

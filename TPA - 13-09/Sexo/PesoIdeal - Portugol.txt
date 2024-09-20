@@ -1,0 +1,19 @@
+var
+    altura, genero, confirmacao: inteiro
+    pesoIdeal: real
+início
+    repita
+        escreva("Digite a sua altura em centímetros:")
+        leia(altura)
+        escreva("Digite o seu gênero, 1 para homem, 2 para mulher:")
+        leia(genero)
+        se (genero = 1) então
+            pesoIdeal ← 52 + 0.75 * (altura - 152.4)
+        senão
+            pesoIdeal ← 52 + 0.67 * (altura - 152.4)
+        fim_se
+        escreva("O seu peso ideal é de ", pesoIdeal, " kg")
+        escreva("Deseja continuar? 1 para Sim ou 2 para Não")
+        leia(confirmacao)
+    até que (confirmacao ≠ 1)
+fim.

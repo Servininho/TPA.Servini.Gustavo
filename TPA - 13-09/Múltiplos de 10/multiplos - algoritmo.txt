@@ -1,0 +1,5 @@
+1) Para i=1 faça até 100, incremetando 1 faça os passos 2 ao 5
+    2) Calcule (res <- i % 10)
+    3) Se (res == 0) então
+        4) Apresente (Multiplo de 10)
+    5)Apresente (i)

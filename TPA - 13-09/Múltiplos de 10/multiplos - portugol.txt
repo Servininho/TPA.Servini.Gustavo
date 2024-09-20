@@ -1,0 +1,10 @@
+var
+    i: inteiro
+início
+    para i de 0 até 100 faça
+        escreva(i)
+        se (i % 10 = 0) então
+            escreva("Esse número é múltiplo de 10")
+        fim_se
+    fim_para
+fim.

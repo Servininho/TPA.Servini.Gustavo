@@ -1,0 +1,15 @@
+1) Leia (anoAtual)
+2) Para i=1 faça até 10, incrementando 1 faça os passos 3 ao 11
+    3) Leia (anoNasc)
+    4) Calcule (idade <- anoAtual - anoNasc)
+    5) Se (i = 1) então
+        6) Calcule (idadeNovo <- idade)
+        7) Calcule (idadeVelho <- idade)
+    6) Se (idade < idadeNovo) então
+        7) Calcule (idadeNovo <- idade)
+    8) Senão
+        9) Se (idade > idadeVelho) então
+            10) Calcule (idadeVelho = idade)
+    11) Apresente (idade)
+12) Apresente (idadeNovo)
+13) Apresente (idadeVelho)

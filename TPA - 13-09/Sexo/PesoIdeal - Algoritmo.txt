@@ -1,0 +1,11 @@
+1) Faça do passo 2 ao 9
+    2) Leia (sexo)
+    3) Leia (altura)
+    4) Se (sexo = 'm') então
+        5) Calcule (pesoIdeal <- 52 + 0.75 * (altura - 152.4))
+        6) Apresente o peso ideal (pesoIdeal)
+    7) Senão
+        8) Calcule (pesoIdeal <- 52 + 0.67 * (altura - 152.4)
+        9) Apresente o peso ideal (pesoIdeal)
+    8) Leia (continuar)
+9) Enquanto (continuar == 1)

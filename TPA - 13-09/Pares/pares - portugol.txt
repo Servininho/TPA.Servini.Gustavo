@@ -1,0 +1,10 @@
+var
+    i: inteiro
+início
+    i ← 0
+
+    repita
+        escreva(i)
+        i ← i + 2
+    até que (i > 500)
+fim.
